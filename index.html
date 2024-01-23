@@ -1,39 +1,126 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="pl">
+
 <head>
-	<meta charset="utf-8" />
-	<title>Najlepsze książki!</title>
-	<meta name="description" content="Przed Tobą spis moich ulubionych książek Sprawdź, czy znasz je wszystkie. Uczta dla książkomaniaka!" />
-	<meta name="keywords" content="książka, biblioteka, najlepsze książki, top książki" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function f1() {
+
+            document.getElementById("odp1").innerHTML = "Dziekuje za pamiec";
+        }
+        function f2() {
+            document.getElementById("odp1").innerHTML = "XD";
+        }
+        function f3() {
+
+            document.getElementById("odp2").innerHTML = "To było najgorsze pół godziny mojego życia!";
+        }
+        function f4() {
+
+            document.getElementById("odp2").innerHTML = "XD";
+        }
+        function f5() {
+
+            document.getElementById("odp3").innerHTML = "Programista HTML";
+        }
+        function f6() {
+
+            document.getElementById("odp3").innerHTML = "XD";
+        }
+        function f7() {
+
+            document.getElementById("odp4").innerHTML = "C++";
+        }
+        function f8() {
+
+            document.getElementById("odp4").innerHTML = "XD";
+        }
+        function f9() {
+
+            document.getElementById("odp5").innerHTML = "Żeby kobiety też mogły programować.";
+        }
+        function f10() {
+
+            document.getElementById("odp5").innerHTML = "XD";
+        }
+        function f11() {
+
+            document.getElementById("odp6").innerHTML = "Ci, którzy rozumieją system binarny i ci, którzy go nie rozumieją.";
+        }
+        function f12() {
+
+            document.getElementById("odp6").innerHTML = "XD";
+        }
+    </script>
+    <style>
+        body {
+            background-color: cadetblue;
+            color: red;
+            text-align: center;
+
+        }
+
+        h1 {
+            color: grey;
+        }
+
+        button {
+            background-color: blue;
+            text-align: center;
+            color: white;
+        }
+    </style>
+
+
+
 </head>
 
-<body>
-	<h1>Najlepsze książki!</h1>
-	
-	Książka 1: 
-	<a href="https://lubimyczytac.pl/ksiazka/4989803/ruiny-gorlanu" target="_blank" title="Zobacz na Lubimyczytać!">
-		Zwiadowcy
-	</a>
-	
-	<br /><br />
-	
-	<a href="https://lubimyczytac.pl/ksiazka/4989803/ruiny-gorlanu" target="_blank" title="Zwiadowcy">
-	<img src="img/zwiadowcy.jpg" />
-	</a>
 
-	<br /><br />
-	
-	Książka 2: 
-	<a href="https://www.empik.com/harry-potter-i-ksiaze-polkrwi-rowling-j-k,p1124736718,ksiazka-p" target="_blank" title="Zobacz na Empik!">
-		Harry Potter
-	</a>
-	
-	<br /><br />
-	
-	<a href="https://www.empik.com/harry-potter-i-ksiaze-polkrwi-rowling-j-k,p1124736718,ksiazka-p" target="_blank" title="Harry Potter">
-		<img src="img/harry.jpg" />
-	</a>
+
+<body>
+
+    <h1>Użycie innerHTML</h1>
+    <h2>Skrypt 1</h2>
+    <p>Co mówi informatyk, kiedy dostanie na urodziny pendrive?</p>
+    <div id="odp1" Odpowiedź></div>
+    <button onclick="f1()">Pokaż odpowiedź</button>
+    <button onclick="f2()">Ukryj odpowiedź</button>
+
+    <h2>Skrypt 2</h2>
+    <p>Spotyka się dwóch programistów: - Słyszałem, że straciłeś pracę. Jak to jest być bezrobotnym?</p>
+    <div id="odp2" Odpowiedź></div>
+    <button onclick="f3()">Pokaż odpowiedź</button>
+    <button onclick="f4()">Ukryj odpowiedź</button>
+
+    <h2>Skrypt 3</h2>
+    <p>Najkrótszy żart na świecie?</p>
+    <div id="odp3" Odpowiedź></div>
+    <button onclick="f5()">Pokaż odpowiedź</button>
+    <button onclick="f6()">Ukryj odpowiedź</button>
+
+    <h2>Skrypt 4</h2>
+    <p>Jaki rozmiar stanika nosi dziewczyna programisty?</p>
+    <div id="odp4" Odpowiedź></div>
+    <button onclick="f7()">Pokaż odpowiedź</button>
+    <button onclick="f8()">Ukryj odpowiedź</button>
+
+    <h2>Skrypt 5</h2>
+    <p>Wiecie, dlaczego pralki mają tyle różnych programów?</p>
+    <div id="odp5" Odpowiedź></div>
+    <button onclick="f9()">Pokaż odpowiedź</button>
+    <button onclick="f10()">Ukryj odpowiedź</button>
+
+
+    <h2>Skrypt 6</h2>
+    <p>Na świecie jest 10 rodzajów ludzi</p>
+    <div id="odp6" Odpowiedź></div>
+    <button onclick="f11()">Pokaż odpowiedź</button>
+    <button onclick="f12()">Ukryj odpowiedź</button>
 
 </body>
+</body>
+
 </html>
